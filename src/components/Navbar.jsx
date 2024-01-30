@@ -80,15 +80,15 @@ const Navbar = (props) => {
           <nav className='py-[0.5rem] px-[1rem] smd:px-[1.5rem] md:px-[2.5rem] flex justify-between top-0 z-[1000] mt-1 md:mt-0'>
               <div className='smdx:w-[120px] w-[12vw] my-auto min-w-[150px]' onClick={()=>window.scrollTo(0, 0)}><a href="#/"><img src={logoWBG} alt="NumberLay" className='w-full'/></a></div>
               <div className='hidden md:block'>
-                  <button className='mx-5'><AnchorLink href="#ourServices" >Services</AnchorLink> </button>
+                  <AnchorLink href="#ourServices" ><button className='mx-5'>Services </button></AnchorLink>
                   
-                  <button className='text-white mx-5 bg-blue-600 px-4 py-2 md:py-3 rounded-[4rem]'><AnchorLink href="#contactUs">Contact Us</AnchorLink> </button>
+                  <AnchorLink href="#contactUs"><button className='text-white mx-5 bg-blue-600 px-4 py-2 md:py-3 rounded-[4rem]'>Contact Us </button> </AnchorLink>
               </div>
               {/* mobile */}
               <div className='md:hidden flex flex-col'>
                   {/* <button className='mx-1 smdx:text-[0.95rem]'><a href="">Services</a> </button> */}
                   
-                  <button className='text-white mx-1 my-auto smdx:text-[0.95rem] bg-blue-600 px-4 py-1 rounded-[4rem]'><AnchorLink href="#contactUs11">Contact Us</AnchorLink> </button>
+                  <AnchorLink href="#contactUs11"><button className='text-white mx-1 my-auto smdx:text-[0.95rem] bg-blue-600 px-4 py-1 rounded-[4rem]'>Contact Us </button> </AnchorLink>
               </div>
           </nav>
         </div>

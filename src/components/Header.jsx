@@ -32,8 +32,10 @@ const Header = () => {
                 <button className='text-white mx-1 my-auto smdx:text-[0.95rem] bg-blue-600 px-4 py-1 rounded-[4rem]'><AnchorLink href="#contactUs11">Contact Us</AnchorLink> </button> */}
 
 
-                <div className='hidden md:block mdx:mx-auto mt-[1.5rem] text-[1rem]'><button className='text-white bg-blue-600 mx-5 px-4 py-2 md:py-3 rounded-[4rem]'><AnchorLink href="#ourServices">Our Services</AnchorLink> </button></div>
-                <div className='md:hidden mdx:mx-auto mt-[1.5rem] text-[1rem]'><button className='text-white mx-1 my-auto smdx:text-[0.95rem] bg-blue-600 px-4 py-1 rounded-[4rem]'><AnchorLink href="#ourServices">Our Services</AnchorLink> </button></div>
+                <div className='hidden md:block mdx:mx-auto mt-[1.5rem] text-[1rem]'><AnchorLink href="#ourServices"><button className='text-white bg-blue-600 mx-5 px-4 py-2 md:py-3 rounded-[4rem]'>Our Services </button></AnchorLink></div>
+
+
+                <div className='md:hidden mdx:mx-auto mt-[1.5rem] text-[1rem]'><AnchorLink href="#ourServices"><button className='text-white mx-1 my-auto smdx:text-[0.95rem] bg-blue-600 px-4 py-1 rounded-[4rem]'>Our Services </button> </AnchorLink></div> 
             </div>
             <div className='mdx:hidden'><img src={one} alt="" className='mdx:hidden w-full max-w-[600px] min-w-[250px]'/></div>
         </div>
