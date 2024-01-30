@@ -19,7 +19,7 @@ const Footer1 = () => {
                     <div className='mt-[1rem] text-[0.98rem] slg:text-[1.1rem] italic'>Your personalized financial ally</div>
                     <div className='flex mt-2'> 
                         <div className=''> <a href="https://www.instagram.com/numberlay/" target='_blank'> <img src={insta} alt="" className='p-[5px] pl-0'/></a> </div>
-                        <div> <a href="https://www.facebook.com/numberlaynow/" target='_blank'> <img src={facebook} alt="" className='p-[5px]' /></a> </div>
+                        <div> <a href="https://www.facebook.com/profile.php?id=61555983030441" target='_blank'> <img src={facebook} alt="" className='p-[5px]' /></a> </div>
                         {/* <div> <a href="" target='_blank'> <img src={linkedin} alt="" className='p-[5px]' /></a> </div> */}
                     </div>
                 </div>
@@ -57,7 +57,7 @@ const Footer1 = () => {
                     </div>
                     <div className='flex items-center ml-auto'> 
                         <div className=''> <a href="https://www.instagram.com/numberlay/" target='_blank'> <img src={insta} alt="" className='p-[5px] pl-0'/></a> </div>
-                        <div> <a href="https://www.facebook.com/numberlaynow/" target='_blank'> <img src={facebook} alt="" className='p-[5px]' /></a> </div>
+                        <div> <a href="https://www.facebook.com/profile.php?id=61555983030441" target='_blank'> <img src={facebook} alt="" className='p-[5px]' /></a> </div>
                         {/* <div> <a href="" target='_blank'> <img src={linkedin} alt="" className='p-[5px]' /></a> </div> */}
                     </div>
                 </div>
